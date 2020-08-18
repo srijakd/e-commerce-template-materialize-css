@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eMall</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="navbar-fixed">
+            <nav class=" blue-grey darken-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <div class="row">
+                            <div class="col s4 l2 section">
+                                <a href="#top" class="brand-logo left">eMall</a>
+                            </div>
+                            <div class="col s8 l8">
+                                <div class="row">
+                                    <div class="col s11 l11">
+                                        <div class="input-field">
+                                            <input class="white" placeholder=" Search" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col s1 l1">
+                                        <a href="#"><i class="white-text material-icons prefix">search</i></a> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l2 hide-on-med-and-down">
+                                <ul id="nav-mobile" class="right">
+                                    <li><a class="tooltipped" data-position="bottom" data-tooltip="Shopping Cart" href="cart.html"><i class="material-icons">shopping_cart</i></a></li>
+                                    <li><a href="#">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="blue-grey lighten-5 hide-on-med-and-down">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <ul>
+                        <li><a class="black-text" href="#">Grocery</a></li>
+                        <li><a class="black-text" href="#">Foods</a></li>
+                        <li><a class="black-text" href="#">Fruits</a></li>
+                        <li><a class="black-text" href="#">Vegetables</a></li>
+                        <li><a class="black-text" href="#">Care Products</a></li>
+                        <li><a class="black-text" href="#">Trending</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="fixed-action-btn hide-on-large-only">
+            <a class="tooltipped green-text" data-position="left" data-tooltip="Shopping Cart" href="cart.html"><i class="medium material-icons">shopping_cart</i></a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="carousel carousel-slider">
+            <div class="carousel-item" href="#one!">
+            <img src="http://via.placeholder.com/1200x300" alt="">
+            </div>
+            <div class="carousel-item" href="#two!">
+            <img src="http://via.placeholder.com/1200x300" alt="">
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h4 class="center">Top Products</h4>
+            <div class="row">
+                <div class="col s6 m4 l3">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="http://via.placeholder.com/200x200">
+                            <a class="btn-floating halfway-fab waves-effect waves-light green tooltipped" data-position="left" data-tooltip="Add to Cart" ><i class="material-icons">add_shopping_cart</i>Add to cart</a>
+                        </div>
+                        <div class="card-content">
+                            <h5>Product Name</h5>
+                            <p>Price</p>
+                            <a href="#buy-now" class="btn green darken-3 modal-trigger">Buy Now</a>
+                        </div>
+                        <div class="modal" id="buy-now">
+                            <h5 class="modal-close"> &#10005;</h5>
+                            <h5 class="center">Enter Your Details</h5>
+                            <div class="modal-content center">
+                                <form action="#">
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">person</i>
+                                        <input type="text" id="name">
+                                        <label for="name">Full Name</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input type="tel" id="number">
+                                        <label for="number">Phone Number</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">location_on</i>
+                                        <input type="text" id="address">
+                                        <label for="address">Address</label>
+                                    </div><br>
+
+                                    <input type="submit" value="Proced" class="btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h4 class="center">Latest Products</h4>
+            <div class="row">
+                <div class="col s6 m4 l3">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="http://via.placeholder.com/200x200">
+                            <a class="btn-floating halfway-fab waves-effect waves-light green tooltipped" data-position="left" data-tooltip="Add to Cart" ><i class="material-icons">add_shopping_cart</i>Add to cart</a>
+                        </div>
+                        <div class="card-content">
+                            <h5>Product Name</h5>
+                            <p>Price</p>
+                            <a href="#buy-now" class="btn green darken-3 modal-trigger">Buy Now</a>
+                        </div>
+                        <div class="modal" id="buy-now">
+                            <h5 class="modal-close"> &#10005;</h5>
+                            <h5 class="center">Enter Your Details</h5>
+                            <div class="modal-content center">
+                                <form action="#">
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">person</i>
+                                        <input type="text" id="name">
+                                        <label for="name">Full Name</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input type="tel" id="number">
+                                        <label for="number">Phone Number</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">location_on</i>
+                                        <input type="text" id="address">
+                                        <label for="address">Address</label>
+                                    </div><br>
+
+                                    <input type="submit" value="Proced" class="btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="container">
+            <ul class="products">
+                <li><h4 class=" padding">Products</h4></li>
+                <li><h4><a class="view-all btn btn-small blue-grey darken-3" href="#">View All</a></h4></li>
+            </ul>
+            
+        
+            <div class="row">
+                <div class="col s6 m4 l3">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="http://via.placeholder.com/200x200">
+                            <a class="btn-floating halfway-fab waves-effect waves-light green tooltipped" data-position="left" data-tooltip="Add to Cart" ><i class="material-icons">add_shopping_cart</i>Add to cart</a>
+                        </div>
+                        <div class="card-content">
+                            <h5>Product Name</h5>
+                            <p>Price:</p>
+                            <a href="#buy-now" class="btn green darken-3 modal-trigger">Buy Now</a>
+                        </div>
+                        <div class="modal" id="buy-now">
+                            <h5 class="modal-close"> &#10005;</h5>
+                            <h5 class="center">Enter Your Details</h5>
+                            <div class="modal-content center">
+                                <form action="#">
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">person</i>
+                                        <input type="text" id="name">
+                                        <label for="name">Full Name</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input type="tel" id="number">
+                                        <label for="number">Phone Number</label>
+                                    </div><br>
+
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">location_on</i>
+                                        <input type="text" id="address">
+                                        <label for="address">Address</label>
+                                    </div><br>
+
+                                    <input type="submit" value="Proced" class="btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="pagination center">
+                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                <li class="active blue-grey darken-4"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!">4</a></li>
+                <li class="waves-effect"><a href="#!">5</a></li>
+                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer class="page-footer blue-grey darken-4">
+        <div class="container">
+            <p class="center">
+                <a href="#top">Back to Top</a>
+            </p>
+
+            <div class="row">
+                <div class="col l4 s6">
+                    <h5><a class="white-text" href="#top">eMall</a></h5>
+                    <ul>
+                        <li><a class="white-text" href="#">About Us</a></li>
+                        <li><a class="white-text" href="#">How to Order</a></li>
+                        <li><a class="white-text" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l4 s6">
+                <h5 class="white-text">Terms and Policies</h5>
+                <ul>
+                    <li><a  class="white-text" href="#">Shipping Policy</a></li>
+                    <li><a  class="white-text" href="#">Return Policy</a></li>
+                </ul>
+                </div>
+
+                <div class="col l4  s12">
+                <h5 class="white-text">Our Social Media</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="container center">
+          © eMall 2020</div>
+        </div>
+    </footer>
+            
+          
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="js/loader.js"></script>
+</html>
